@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		588350A128DE4E3500E46751 /* epic_thingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588350A028DE4E3500E46751 /* epic_thingsApp.swift */; };
+		588350A328DE4E3500E46751 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588350A228DE4E3500E46751 /* ContentView.swift */; };
+		588350A528DE4E3700E46751 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 588350A428DE4E3700E46751 /* Assets.xcassets */; };
+		588350A828DE4E3700E46751 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 588350A728DE4E3700E46751 /* Preview Assets.xcassets */; };
+		588350B228DE4E3700E46751 /* epic_thingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588350B128DE4E3700E46751 /* epic_thingsTests.swift */; };
+		588350BC28DE4E3700E46751 /* epic_thingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588350BB28DE4E3700E46751 /* epic_thingsUITests.swift */; };
+		588350BE28DE4E3700E46751 /* epic_thingsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588350BD28DE4E3700E46751 /* epic_thingsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		588350AE28DE4E3700E46751 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5883509528DE4E3500E46751 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5883509C28DE4E3500E46751;
+			remoteInfo = epic_things;
+		};
+		588350B828DE4E3700E46751 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5883509528DE4E3500E46751 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5883509C28DE4E3500E46751;
+			remoteInfo = epic_things;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5883509D28DE4E3500E46751 /* epic_things.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = epic_things.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		588350A028DE4E3500E46751 /* epic_thingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = epic_thingsApp.swift; sourceTree = "<group>"; };
+		588350A228DE4E3500E46751 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		588350A428DE4E3700E46751 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		588350A728DE4E3700E46751 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		588350AD28DE4E3700E46751 /* epic_thingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = epic_thingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		588350B128DE4E3700E46751 /* epic_thingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = epic_thingsTests.swift; sourceTree = "<group>"; };
+		588350B728DE4E3700E46751 /* epic_thingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = epic_thingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		588350BB28DE4E3700E46751 /* epic_thingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = epic_thingsUITests.swift; sourceTree = "<group>"; };
+		588350BD28DE4E3700E46751 /* epic_thingsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = epic_thingsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5883509A28DE4E3500E46751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		588350AA28DE4E3700E46751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		588350B428DE4E3700E46751 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5883509428DE4E3500E46751 = {
+			isa = PBXGroup;
+			children = (
+				5883509F28DE4E3500E46751 /* epic_things */,
+				588350B028DE4E3700E46751 /* epic_thingsTests */,
+				588350BA28DE4E3700E46751 /* epic_thingsUITests */,
+				5883509E28DE4E3500E46751 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5883509E28DE4E3500E46751 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5883509D28DE4E3500E46751 /* epic_things.app */,
+				588350AD28DE4E3700E46751 /* epic_thingsTests.xctest */,
+				588350B728DE4E3700E46751 /* epic_thingsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5883509F28DE4E3500E46751 /* epic_things */ = {
+			isa = PBXGroup;
+			children = (
+				588350A028DE4E3500E46751 /* epic_thingsApp.swift */,
+				588350A228DE4E3500E46751 /* ContentView.swift */,
+				588350A428DE4E3700E46751 /* Assets.xcassets */,
+				588350A628DE4E3700E46751 /* Preview Content */,
+			);
+			path = epic_things;
+			sourceTree = "<group>";
+		};
+		588350A628DE4E3700E46751 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				588350A728DE4E3700E46751 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		588350B028DE4E3700E46751 /* epic_thingsTests */ = {
+			isa = PBXGroup;
+			children = (
+				588350B128DE4E3700E46751 /* epic_thingsTests.swift */,
+			);
+			path = epic_thingsTests;
+			sourceTree = "<group>";
+		};
+		588350BA28DE4E3700E46751 /* epic_thingsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				588350BB28DE4E3700E46751 /* epic_thingsUITests.swift */,
+				588350BD28DE4E3700E46751 /* epic_thingsUITestsLaunchTests.swift */,
+			);
+			path = epic_thingsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5883509C28DE4E3500E46751 /* epic_things */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 588350C128DE4E3700E46751 /* Build configuration list for PBXNativeTarget "epic_things" */;
+			buildPhases = (
+				5883509928DE4E3500E46751 /* Sources */,
+				5883509A28DE4E3500E46751 /* Frameworks */,
+				5883509B28DE4E3500E46751 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = epic_things;
+			productName = epic_things;
+			productReference = 5883509D28DE4E3500E46751 /* epic_things.app */;
+			productType = "com.apple.product-type.application";
+		};
+		588350AC28DE4E3700E46751 /* epic_thingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 588350C428DE4E3700E46751 /* Build configuration list for PBXNativeTarget "epic_thingsTests" */;
+			buildPhases = (
+				588350A928DE4E3700E46751 /* Sources */,
+				588350AA28DE4E3700E46751 /* Frameworks */,
+				588350AB28DE4E3700E46751 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				588350AF28DE4E3700E46751 /* PBXTargetDependency */,
+			);
+			name = epic_thingsTests;
+			productName = epic_thingsTests;
+			productReference = 588350AD28DE4E3700E46751 /* epic_thingsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		588350B628DE4E3700E46751 /* epic_thingsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 588350C728DE4E3700E46751 /* Build configuration list for PBXNativeTarget "epic_thingsUITests" */;
+			buildPhases = (
+				588350B328DE4E3700E46751 /* Sources */,
+				588350B428DE4E3700E46751 /* Frameworks */,
+				588350B528DE4E3700E46751 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				588350B928DE4E3700E46751 /* PBXTargetDependency */,
+			);
+			name = epic_thingsUITests;
+			productName = epic_thingsUITests;
+			productReference = 588350B728DE4E3700E46751 /* epic_thingsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5883509528DE4E3500E46751 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					5883509C28DE4E3500E46751 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					588350AC28DE4E3700E46751 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 5883509C28DE4E3500E46751;
+					};
+					588350B628DE4E3700E46751 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 5883509C28DE4E3500E46751;
+					};
+				};
+			};
+			buildConfigurationList = 5883509828DE4E3500E46751 /* Build configuration list for PBXProject "epic_things" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5883509428DE4E3500E46751;
+			productRefGroup = 5883509E28DE4E3500E46751 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5883509C28DE4E3500E46751 /* epic_things */,
+				588350AC28DE4E3700E46751 /* epic_thingsTests */,
+				588350B628DE4E3700E46751 /* epic_thingsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5883509B28DE4E3500E46751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588350A828DE4E3700E46751 /* Preview Assets.xcassets in Resources */,
+				588350A528DE4E3700E46751 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		588350AB28DE4E3700E46751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		588350B528DE4E3700E46751 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5883509928DE4E3500E46751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588350A328DE4E3500E46751 /* ContentView.swift in Sources */,
+				588350A128DE4E3500E46751 /* epic_thingsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		588350A928DE4E3700E46751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588350B228DE4E3700E46751 /* epic_thingsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		588350B328DE4E3700E46751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588350BE28DE4E3700E46751 /* epic_thingsUITestsLaunchTests.swift in Sources */,
+				588350BC28DE4E3700E46751 /* epic_thingsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		588350AF28DE4E3700E46751 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5883509C28DE4E3500E46751 /* epic_things */;
+			targetProxy = 588350AE28DE4E3700E46751 /* PBXContainerItemProxy */;
+		};
+		588350B928DE4E3700E46751 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5883509C28DE4E3500E46751 /* epic_things */;
+			targetProxy = 588350B828DE4E3700E46751 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		588350BF28DE4E3700E46751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		588350C028DE4E3700E46751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		588350C228DE4E3700E46751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"epic_things/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "joa.epic-things";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		588350C328DE4E3700E46751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"epic_things/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "joa.epic-things";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		588350C528DE4E3700E46751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "joa.epic-thingsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/epic_things.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/epic_things";
+			};
+			name = Debug;
+		};
+		588350C628DE4E3700E46751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "joa.epic-thingsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/epic_things.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/epic_things";
+			};
+			name = Release;
+		};
+		588350C828DE4E3700E46751 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "joa.epic-thingsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = epic_things;
+			};
+			name = Debug;
+		};
+		588350C928DE4E3700E46751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "joa.epic-thingsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = epic_things;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5883509828DE4E3500E46751 /* Build configuration list for PBXProject "epic_things" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				588350BF28DE4E3700E46751 /* Debug */,
+				588350C028DE4E3700E46751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		588350C128DE4E3700E46751 /* Build configuration list for PBXNativeTarget "epic_things" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				588350C228DE4E3700E46751 /* Debug */,
+				588350C328DE4E3700E46751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		588350C428DE4E3700E46751 /* Build configuration list for PBXNativeTarget "epic_thingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				588350C528DE4E3700E46751 /* Debug */,
+				588350C628DE4E3700E46751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		588350C728DE4E3700E46751 /* Build configuration list for PBXNativeTarget "epic_thingsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				588350C828DE4E3700E46751 /* Debug */,
+				588350C928DE4E3700E46751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5883509528DE4E3500E46751 /* Project object */;
+}

@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		588350A128DE4E3500E46751 /* epic_thingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588350A028DE4E3500E46751 /* epic_thingsApp.swift */; };
-		588350A328DE4E3500E46751 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588350A228DE4E3500E46751 /* ContentView.swift */; };
+		588350A328DE4E3500E46751 /* loginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588350A228DE4E3500E46751 /* loginView.swift */; };
 		588350A528DE4E3700E46751 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 588350A428DE4E3700E46751 /* Assets.xcassets */; };
 		588350A828DE4E3700E46751 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 588350A728DE4E3700E46751 /* Preview Assets.xcassets */; };
 		588350B228DE4E3700E46751 /* epic_thingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588350B128DE4E3700E46751 /* epic_thingsTests.swift */; };
 		588350BC28DE4E3700E46751 /* epic_thingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588350BB28DE4E3700E46751 /* epic_thingsUITests.swift */; };
 		588350BE28DE4E3700E46751 /* epic_thingsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588350BD28DE4E3700E46751 /* epic_thingsUITestsLaunchTests.swift */; };
+		588350CF28DE82A900E46751 /* mainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588350CE28DE82A900E46751 /* mainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		5883509D28DE4E3500E46751 /* epic_things.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = epic_things.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		588350A028DE4E3500E46751 /* epic_thingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = epic_thingsApp.swift; sourceTree = "<group>"; };
-		588350A228DE4E3500E46751 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		588350A228DE4E3500E46751 /* loginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginView.swift; sourceTree = "<group>"; };
 		588350A428DE4E3700E46751 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		588350A728DE4E3700E46751 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		588350AD28DE4E3700E46751 /* epic_thingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = epic_thingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,7 @@
 		588350B728DE4E3700E46751 /* epic_thingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = epic_thingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		588350BB28DE4E3700E46751 /* epic_thingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = epic_thingsUITests.swift; sourceTree = "<group>"; };
 		588350BD28DE4E3700E46751 /* epic_thingsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = epic_thingsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		588350CE28DE82A900E46751 /* mainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				588350A028DE4E3500E46751 /* epic_thingsApp.swift */,
-				588350A228DE4E3500E46751 /* ContentView.swift */,
+				588350A228DE4E3500E46751 /* loginView.swift */,
+				588350CE28DE82A900E46751 /* mainView.swift */,
 				588350A428DE4E3700E46751 /* Assets.xcassets */,
 				588350A628DE4E3700E46751 /* Preview Content */,
 			);
@@ -257,7 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				588350A328DE4E3500E46751 /* ContentView.swift in Sources */,
+				588350CF28DE82A900E46751 /* mainView.swift in Sources */,
+				588350A328DE4E3500E46751 /* loginView.swift in Sources */,
 				588350A128DE4E3500E46751 /* epic_thingsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

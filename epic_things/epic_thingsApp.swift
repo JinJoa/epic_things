@@ -11,7 +11,7 @@ import SwiftUI
 struct epic_thingsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            loginView()
         }
     }
 }

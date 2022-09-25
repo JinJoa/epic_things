@@ -4,6 +4,37 @@
 
 import SwiftUI
 
+
+
+struct ColorDetail: View {
+    var color: Color
+
+    var body: some View {
+        color.navigationTitle(color.description)
+    }
+}
+
+struct DoorLock: View {
+    var body: some View {
+        VStack() {
+            HStack{
+                Text("등록가능한 도어락")
+                Image(systemName:"gobackward")
+                    .foregroundColor(Color("deepRed"))
+            }
+            List{
+                Text("도어락: 1")
+                Text("도어락: 2")
+                Text("도어락: 3")
+            }
+            Button("등록"){}
+            .foregroundColor(Color("deepRed"))
+        
+        }
+    }
+}
+
+
 struct mainView: View {
     
 //    @State var menu: [String] = ["맴버", "도어록", "키", "초대", "게스트 키", "설정","와이파이 브릿지", "히스토리",""]
@@ -35,7 +66,7 @@ struct mainView: View {
     
     
     var body: some View {
-        
+        NavigationStack {
         VStack() {
             HStack{
                 Image("icon_user")
@@ -44,7 +75,7 @@ struct mainView: View {
                     
                 Text("EPIC things (BLE)")
             }
-            .padding(.top,50)
+            //.padding(.top,50)
             HStack{
                 Rectangle()
                     .foregroundColor(.white)
@@ -90,37 +121,40 @@ struct mainView: View {
                 Circle()
                     .fill(Color("lightGray"))
                     .frame(width: 200, height: 200)
-                    .offset(x: 0, y:-300)
+                    .offset(x: 0, y:-275)
                 Circle()
                     .fill(Color.white)
                     .frame(width: 160, height: 160)
-                    .offset(x: 0, y:-300)
+                    .offset(x: 0, y:-275)
                     .shadow(radius: 10)
                 Circle()
                     .fill(Color("deepRed"))
                     .frame(width: 140, height: 140)
-                    .offset(x: 0, y:-300)
+                    .offset(x: 0, y:-275)
                 
                 Circle()
                     .fill(Color("lightGray"))
                     .frame(width: 130, height: 130)
-                    .offset(x: 0, y:-300)
+                    .offset(x: 0, y:-275)
                 
                 Image("icon_unlock")
                    //.frame(width: 50, height: 50)
-                    .offset(x: 0, y:-300)
+                    .offset(x: 0, y:-275)
                 
-                LazyVGrid(columns: columns, spacing: 10) {
+                
+            LazyVGrid(columns: columns, spacing: 10) {
                     ForEach(menuList) { menuList in
                         ZStack(){
                             Rectangle()
                                 .cornerRadius(10)
                                 .frame(width: 120, height: 120)
                                 .foregroundColor(.white)
+                            
                             Image(systemName: menuList.menuIcon)
                               .foregroundColor(Color("deepRed"))
                               .font(.system(size: 30))
-                            Text(menuList.menu)
+                               
+                            NavigationLink(menuList.menu) { DoorLock() }
                                 .offset(x:0, y:30)
                                 .font(.system(size: 14))
                                 .foregroundColor(.gray)
@@ -131,10 +165,11 @@ struct mainView: View {
                 
              }
             .offset(x: 0, y:20)
-            .frame(height: 500)
+            .frame(height: 475)
             .background(Color("lightGray"))
             
-            
+        }
+        .navigationBarTitle("")
             
         }
         .edgesIgnoringSafeArea(.all)

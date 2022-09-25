@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5819F58D28E04E360027CB71 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5819F58C28E04E360027CB71 /* TestView.swift */; };
 		588350A128DE4E3500E46751 /* epic_thingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588350A028DE4E3500E46751 /* epic_thingsApp.swift */; };
 		588350A328DE4E3500E46751 /* loginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588350A228DE4E3500E46751 /* loginView.swift */; };
 		588350A528DE4E3700E46751 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 588350A428DE4E3700E46751 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5819F58C28E04E360027CB71 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		5883509D28DE4E3500E46751 /* epic_things.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = epic_things.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		588350A028DE4E3500E46751 /* epic_thingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = epic_thingsApp.swift; sourceTree = "<group>"; };
 		588350A228DE4E3500E46751 /* loginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				588350A028DE4E3500E46751 /* epic_thingsApp.swift */,
 				588350A228DE4E3500E46751 /* loginView.swift */,
 				588350CE28DE82A900E46751 /* mainView.swift */,
+				5819F58C28E04E360027CB71 /* TestView.swift */,
 				588350A428DE4E3700E46751 /* Assets.xcassets */,
 				588350A628DE4E3700E46751 /* Preview Content */,
 			);
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5819F58D28E04E360027CB71 /* TestView.swift in Sources */,
 				588350CF28DE82A900E46751 /* mainView.swift in Sources */,
 				588350A328DE4E3500E46751 /* loginView.swift in Sources */,
 				588350A128DE4E3500E46751 /* epic_thingsApp.swift in Sources */,

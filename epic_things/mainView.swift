@@ -14,6 +14,25 @@ struct ColorDetail: View {
     }
 }
 
+struct MemberManagement: View {
+    var body: some View {
+        VStack() {
+            HStack{
+                Image(systemName:"person.2")
+                Image(systemName:"person.badge.key")
+                Image(systemName:"person")
+            }
+                     
+            List{
+                Text("사람: 1")
+                Text("사람: 2")
+                Text("사람: 3")
+            }
+        
+        }
+    }
+}
+
 struct DoorLock: View {
     var body: some View {
         VStack() {
@@ -35,6 +54,7 @@ struct DoorLock: View {
 }
 
 
+
 struct mainView: View {
     
 //    @State var menu: [String] = ["맴버", "도어록", "키", "초대", "게스트 키", "설정","와이파이 브릿지", "히스토리",""]
@@ -42,12 +62,12 @@ struct mainView: View {
 
     @State var columns: [GridItem] = Array(repeating: .init(.flexible()), count: 3)
 
-    private struct MenuList: Identifiable {
+    struct MenuList: Identifiable {
         let menu: String
         let menuIcon: String
         var id: String { menu }
     }
-    private let menuList: [MenuList] = [
+    let menuList: [MenuList] = [
         MenuList(menu: "맴버", menuIcon: "person.2"),
         MenuList(menu: "도어록", menuIcon: "entry.lever.keypad"),
         MenuList(menu: "키", menuIcon: "key"),
@@ -59,7 +79,30 @@ struct mainView: View {
         MenuList(menu: "", menuIcon: "")
     ]
 
-    
+//    struct MeunButtonStyle: ButtonStyle {
+//        let menu: MenuList
+//        func makeBody(configuration: Configuration) -> some View {
+//            ZStack(){
+//                Rectangle()
+//                    .cornerRadius(10)
+//                    .frame(width: 120, height: 120)
+//                    .foregroundColor(.white)
+//
+//                Image(systemName: MenuList.menuIcon)
+//                  .foregroundColor(Color("deepRed"))
+//                  .font(.system(size: 30))
+//
+//                Text(MenuList.menu)
+//                    .offset(x:0, y:30)
+//                    .font(.system(size: 14))
+//                    .foregroundColor(.gray)
+//        }
+//
+//        let menu: String
+//        let menuIcon: String
+//        var id: String { menu }
+//    }
+
     
     @State var selectedlocation = "우리집"
     var location = ["우리집", "회사", "큰집"]
@@ -143,6 +186,7 @@ struct mainView: View {
                 
                 
             LazyVGrid(columns: columns, spacing: 10) {
+                
                     ForEach(menuList) { menuList in
                         ZStack(){
                             Rectangle()
